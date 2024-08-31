@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.container{
+    padding: 50px;
+}
+.sectionone{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.sectionone_contact{
+    color: gainsboro;
+    padding: 10px 10px 5px 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.sectionone_contact:hover{
+    color: rgb(223, 18, 97);
+    cursor:pointer;
+    border:none;
+
+}
+.sectionone_name{
+    font-size:50px;
+}
+.sectionone_role{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sectiontwo,.sectionthree,.sectionfour,.sectionfive{
+    margin-top: 25px;
+}
+.sectiontwo_desc,.sectionthree_desc,.sectionfour_desc,.sectionfive_desc{
+    margin-top: 10px;
+}
+.sectionfive{
+    background-color: rgb(237, 177, 177);
+    padding: 20px;
+    border-radius: 5px;
+}
+.sectionfive_title a:hover{
+    color: rgb(0, 43, 233);
+}
+.sectionthree li,.sectionfour li{
+    list-style: none;
+}
+.sectionthree{
+    background-color: #f4c1d0;
+    display:inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    height: 250px;
+    vertical-align: top;
+}
+.sectionfour{
+    background-color: #dab9b9;
+    display:inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    height: 250px;
+    vertical-align: top;
+}
+.contactform{
+    margin-top: 15px;
+}
+.contactformone,.contactformtwo,.contactformthree{
+   margin-top: 15px;
+}
+.contactformone{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+
+.contactformtwo{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+.contactformthree{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;    
+}
+.contactformthree:hover{
+    background-color: #ef044b65;
+    opacity: 0.5;
+    cursor: pointer;
+}
